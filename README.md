@@ -16,8 +16,6 @@ For the above mentioned theme.
 Contact Details
 Chaitra Dhanorkar Shivendra Agarwal
 Email: ​chaitrad303@gmail.com​ Email: ​shiv.vitu@gmail.com
-Phone: +91 94229 62279 Phone: +91 80054 55589
-
 
 ## Table of Contents
 
@@ -52,6 +50,7 @@ University), Bangalore. We know each other from last year and have participated
 in multiple completions at national level. We think Artificial Intelligence as a
 field is very interesting and are looking forward to having a lot of professional
 discussions about the topic through our project work.
+
     1.2. Objective
        Normally users are not aware of treatments or symptoms regarding the
 particular disease. For small problems, the user has to go personally to the
@@ -86,6 +85,7 @@ emerging use cases appear to focus on checking patient symptoms. Natural
 language processing is used to help diagnose a user based on the symptoms he or
 she provides. Technical advancements in the healthcare domain are growing at a
 rapid pace.
+
 1.3. Chatbot: A definition
 According to the Oxford English Dictionary, a chatbot is defined as
 follows:
@@ -106,6 +106,7 @@ some point impacts the discussion's stream and to accomplish the defined
 Hence, the meaning of a chatbot for the record is a computer program
 conveying by text in a humanly way and who offers types of assistance to its
 clients so as to achieve a specified objective.
+
 1.4. Motivation
 Natural Language Processing aka NLP is a branch of informatics,
 mathematical linguistics, machine learning, and artificial intelligence. NLP helps
@@ -136,6 +137,7 @@ overnight. Current user data is sparse. This project focuses on creating a produ
 available to everyone. The project also focuses on overcoming existing
 domain-specific loopholes and errors in the existing 3rd party chatbots.
 ```
+
 2. System Architecture
     2.1. API Calls
        2.1.1. Client Responsibilities
@@ -151,37 +153,57 @@ domain-specific loopholes and errors in the existing 3rd party chatbots.
 2.1.2.2. The server will respond with a 200 OK status code if a request has
 the header Content-Type: application/json and is a valid API
 query.
+
 2.1.2.3. The user waits without any notification.
+
 2.1.2.4. The server will respond with a 400 Bad Request status code then
 the user has to retry with a new meaningful question.
+
 2.1.3. System responsibilities
+
 2.1.3.1. Maintaining the database is the highest priority.
+
 2.1.3.2. Update flags given at multiple steps.
+
 2.1.3.3. Process the question in all the possible ways.
+
 2.1.3.4. Perform long term scheduler and short term scheduler activities as
 per need.
+
 2.1.3.5. Maintain document level conversation.
+
 2.1.3.6. Maintain error log file at server level.
+
 2.1.4. Flow chart
+
 2.1.4.1. Keywords
+
 2.1.4.1.1. Pool of requests: All the waiting users will be queued here
 with the questions as the parameter.
+
 2.1.4.1.2. Condition: To save time, questions are pre processed and
 checked if answers are already present in the file or not.
+
 2.1.4.1.3. Predefined questions: All the frequently asked questions
 are saved here.
+
 2.1.4.1.4. Process the questions: Uniques questions are processed by
 the model.
+
 2.1.4.1.5. Save: All the flags and queries are saved in the database.
 
 
 2.1.4.1.6. Frame the answer: The answers are framed according to the
 questions.
+
 2.1.4.1.7. Predefined answers: For predefined questions, predefined
 answers are returned.
+
 2.1.4.2. Diagram
 **_Fig 1: Query Process Flow Diagram_**
+
 2.1.5. System Requi​rements
+
 2.1.5.1. Assumptions
 ● 30 - 100 request per minute
 ● 6 peak hours distributed in 24 hours
@@ -198,6 +220,7 @@ answers are returned.
 ● Python: Python 3.
 ● Internet: Stable connection with optimum speed
 ```
+
 3. Algorithms and Data Structure
     3.1. CRISP-DM Model
        The CRoss Industry Standard Process for Data Mining (CRISP-DM) is an
@@ -222,6 +245,7 @@ either focus on building predictive supervised models or unsupervised models,
 which usually focus more on pattern mining and grouping. Finally, we evaluate
 the model and the overall success criteria with relevant stakeholders or customers
 and deploy the final model for future usage.
+
 3.2. Agile
 Since the project is not only NLP alone, and has integration of APIs and
 database, there is software development. So, the project has implementation of
@@ -242,6 +266,7 @@ The following diagram gives an overview of the process.
 ```
 Fig 3: Software development model for chatbot
 ```
+
 4. Interface
     4.1. Config Page
        This screenshot is taken from the telegram bot page. This is how the
@@ -249,13 +274,16 @@ setting page of the chatbot will look. Variations can be expected.
 
 
 **_Fig 4: Chatbot Setting_**
+
 4.2. Chat Window Page
 Chatbox with the virtual agent. Variations can be expected.
 
 
 ```
+
 Fig 5: Chatbot Window
 ```
+
 5. Class Diagram
     The class ​diagram is the main building block of object-oriented modeling. It is
 used for general conceptual modeling of the structure of the application, and for detailed
@@ -263,8 +291,10 @@ modeling translating the models into programming code.
 
 
 ```
+
 Fig 5: Class Diagram
 ```
+
 6. References
     6.1. [http://repository.essex.ac.uk/21238/](http://repository.essex.ac.uk/21238/)
     6.2. https://www.journals.ala.org/index.php/ltr/article/view/4504/
@@ -276,13 +306,10 @@ Fig 5: Class Diagram
     6.8. https://github.com/deepset-ai/COVID-QA
     6.9. https://towardsdatascience.com/transformers-state-of-the-art-natural-language-processing
        -1d84c4c7462b
-6.10. https://www.uio.no/studier/emner/matnat/ifi/IN5480/h18/deliverables/group-assignment/f
-inal-reports/finalreport-vildehos_annassc_martrim.pdf
-6.11. https://matheo.uliege.be/bitstream/2268.2/4625/6/Thesis_PETERS_Florian.pdf
-6.12. https://towardsdatascience.com/complete-guide-to-enterprise-chatbot-development-c377a
-a5e4ddc
-6.13. https://towardsdatascience.com/5-reasons-why-your-chatbot-needs-natural-language-proc
-essing-ed20fb0a
-
-
-
+    6.10. https://www.uio.no/studier/emner/matnat/ifi/IN5480/h18/deliverables/group-assignment/f
+    inal-reports/finalreport-vildehos_annassc_martrim.pdf
+    6.11. https://matheo.uliege.be/bitstream/2268.2/4625/6/Thesis_PETERS_Florian.pdf
+    6.12. https://towardsdatascience.com/complete-guide-to-enterprise-chatbot-development-c377a
+    a5e4ddc
+    6.13. https://towardsdatascience.com/5-reasons-why-your-chatbot-needs-natural-language-proc
+    essing-ed20fb0a
