@@ -1,4 +1,4 @@
-Main file: telegram/telegram_runner.py
+Main file: pipeline/telegram/runner_telegram.py
 
 
 # COVID-19-chatbot-using-telegram-api
