@@ -1,3 +1,6 @@
+Main file: telegram/telegram_runner.py
+
+
 # COVID-19-chatbot-using-telegram-api
 **Smart Medical Assistant**
 _Theme by Virtusa Technologies_
@@ -313,3 +316,7 @@ Fig 5: Class Diagram
     a5e4ddc
     6.13. https://towardsdatascience.com/5-reasons-why-your-chatbot-needs-natural-language-proc
     essing-ed20fb0a
+    
+    
+    
+    Thank you
